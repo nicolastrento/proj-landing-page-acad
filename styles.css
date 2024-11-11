@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+
+/* Zerando CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Fundo-Tela */
+
+html {
+    width: 100vw;
+    height: 170vw;
+    font-size: 62.5%;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(/img/img2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+/* Menu - Header - Navbar */
+
+header{
+    width: 100%;
+    height: 7vh;
+    background: rgba(22, 22, 22, 0.2);
+}
+
+.menu-content{
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.logo{
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.logo-sobre-nos {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1435px;
+    left: 850px;
+    background: linear-gradient(12deg, #F0FFFF, #808A87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logo-sobre-nos2 {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1485px;
+    left: 930px;
+    background: linear-gradient(12deg, #FCFCFC, #808A87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logo-sobre-nos3 {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1696px;
+    left: 549px;
+    background: linear-gradient(12deg, #FCFCFC, #808A87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.menu-content .logo-planos {
+    font-size: 1.9rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1820px;
+    left: 880px;
+    background: linear-gradient(12deg, #FCFCFC, #808A87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.menu-content .logo-contato {
+    font-size: 1.9rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 2380px;
+    left: 300px;
+    background: linear-gradient(12deg, #FCFCFC, #808A87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.menu-content .logo-horario {
+    font-size: 1.9rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 2380px;
+    left: 1050px;
+    background: linear-gradient(12deg, #FCFCFC, #808A87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+    top: 150px;
+    left: 300px;
+}
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(255, 127, 80);
+    transition: all 1.5s ease;
+}
+
+.menu.content .list-itens a:hover:before {
+    width: 100%;
+}
+
+.menu-content .check-menu {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .check-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .check-menu a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(255, 127, 80);
+    transition: all 1.5s ease;
+}
+
+.menu-content .check-menu a:hover:before {
+    width: 100%;
+}
+
+.menu-content .check-menu {
+    position: absolute;
+    top: 700px;
+    left: 870px;
+}
+
+.menu-content .check-menu-left {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .check-menu-left a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .check-menu-left a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(255, 127, 80);
+    transition: all 1.5s ease;
+}
+
+.menu-content .check-menu-left a:hover:before {
+    width: 100%;
+}
+
+.menu-content .check-menu-left {
+    position: absolute;
+    top: 750px;
+    left: 870px;
+}
+
+.menu-content .check-menu-left2 {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .check-menu-left2 a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .check-menu-left2 a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(255, 127, 80);
+    transition: all 1.5s ease;
+}
+
+.menu-content .check-menu-left2 a:hover:before {
+    width: 100%;
+}
+
+.menu-content .check-menu-left2 {
+    position: absolute;
+    top: 800px;
+    left: 815px;
+}
+
+.menu-content .text-sobre-nos {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    top: 1581px;
+    left: -20px;
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+    padding: 0.8rem;
+    transform: 2ms ease-in;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+}
+
+.text-sobre-nos2 {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    top: 1600px;
+    left: -240px;
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+    padding: 0.8rem;
+    transform: 2ms ease-in;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+}
+
+.text-sobre-nos3 {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    top: 1610px;
+    left: -128px;
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+    padding: 0.8rem;
+    transform: 2ms ease-in;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+}
+
+
+.menu-content .text-planos {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    top: 1780px;
+    left: -278px;
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+    padding: 0.8rem;
+    transform: 2ms ease-in;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+    word-break: break-all;
+}
+
+/* Centro - Conteudo Principal */
+
+main{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Textos conteudo principal */
+
+.primary-text {
+    width: 850px;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.second-text {
+    margin-bottom: 7rem;
+    font-size: 1.8rem;
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
+}
+
+/* Botoes */
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btns button {
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btns button:hover {
+    color: rgb(255, 127, 80)
+}
+
+.btns button:before {
+    content: ' ';
+    bottom: 0;
+    border-radius: 20px;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+}
+
+.btns button:hover:before {
+    width: 100%;
+}
+
+.btn-exp {
+    animation: pulse 2.3s infinite;
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(0 , 0, 0, 0.2);
+    }
+    50% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+.btn-personal {
+    animation: pulse 2.3s infinite;
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(0 , 0, 0, 0.2);
+    }
+    50% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* slides passando */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+
+.img-acad {
+    height: 760px;
+    width: 930px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.75);
+}
+
+
+.img-acad .slide img{
+    height: 100%;
+    width: 100%
+}
+
+.navigation {
+    position: absolute;
+    bottom: 160px;
+    top: 950px;
+    left: 890px;
+    display: flex;
+}
+
+.bar {
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .5s ease;
+}
+
+.bar:hover {
+    background-color: white;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    height: 50%;
+}
+
+.slide {
+    width: 34%;
+    transition: .6s;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -34%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -68%;
+}
+
+/* Aba Planos */
+
+.pricing-container {
+    display: flex;
+    gap: 20px;
+}
+.pricing-plan {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 1050px;
+    left: 290px;
+}
+.pricing-plan h2 {
+    background-color: #808080;
+    color: white;
+    padding: 10px 0;
+    margin: -20px -20px 20px -20px;
+    border-top-left-radius: 10px;
+}
+.pricing-plan h2.annual {
+    background-color: black;
+}
+.pricing-plan h2.annual::after {
+    content: "PREFERIDO";
+    background-color: #808080;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(45deg);
+    transform-origin: top right;
+    margin-top: 50px;
+    margin-right: -30px;
+}
+.price {
+    font-size: 2.5em;
+    color: #fff;
+}
+.price span {
+    font-size: 0.5em;
+    vertical-align: super;
+}
+.price-desc {
+    color: #808080;
+    margin-bottom: 20px;
+}
+.feature {
+   margin: 10px 0;
+   font-size: 1em;
+}
+.feature i {
+   margin-right: 10px;
+}
+.feature.negative i {
+   color: red;
+}
+.feature.positive i {
+   color: green;
+}
+.start-button {
+   background-color: #808080;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 20px;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+/* Arrumando */
+
+.text-tecnologia {
+    top: 750px;
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 900px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(255, 127, 80);
+    transition:  all 1.5s ease;
+}
+
+/* Contato */
+
+.linha-horizontal {
+    width: 25%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: 300px;
+    margin-top: 1180px;
+    margin-bottom: 90px;
+    background-color: white;
+}
+
+.whatsapp-logo {
+    position: absolute;
+    top: 2450px;
+    left: 300px;
+    font-size: 1vw;
+    color: silver;
+}
+
+.email-logo {
+    position: absolute;
+    top: 2500px;
+    left: 300px;
+    font-size: 1vw;
+    color: silver;
+}
+
+.linha-horizontal2 {
+    width: 25%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: 1050px;
+    margin-bottom: 90px;
+    margin-top: -91px;
+    background-color: white;
+}
+
+.horario-logo {
+    position: absolute;
+    top: 2450px;
+    left: 1050px;
+    font-size: 1vw;
+    color: silver;
+}
+
+/* Depoimentos header */
+
+
+.header {
+   text-align: center;
+   padding: 50px 0;
+   background-color: #e0e0e0;
+   position: absolute;
+   left: 0px;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    left: 820px;
+    background: linear-gradient(12deg, #FCFCFC, #808A87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header h1::before {
+    content: "DEPOIMENTOS";
+    position: absolute;
+    top: 0;
+    left: 30%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    font-size: 30px;
+}
+.header p {
+    font-size: 20px;
+    color: silver;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 710px;
+    width: 400px;
+}
+.testimonials {
+    background-color: #333;
+    padding: 50px 0;
+    margin-top: 350px;
+}
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1100px;
+    margin-left: 360px;
+
+}
+.testimonial {
+    background-color: #545454;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+}
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #fff;
+}
+.testimonial h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.testimonial .stars {
+    color: #fbc02d;
+    margin: 10px 0;
+}
+.testimonial p {
+    font-size: 14px;
+    color: #363636;
+}
+.footer {
+    background-color: #e0e0e0;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer .contact, .footer .hours {
+   display: inline-block;
+   width: 45%;
+   vertical-align: top;
+   text-align: left;
+}
+.footer h3 {
+   font-size: 20px;
+   color: #333;
+   margin-bottom: 20px;
+}
+.footer p {
+   font-size: 14px;
+   color: #333;
+}
+.footer .icon {
+   color: #f15a24;
+   margin-right: 10px;
+}
+
