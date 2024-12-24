@@ -58,7 +58,7 @@ header{
     cursor: pointer;
     position: absolute;
     top: 1435px;
-    left: 850px;
+    left: 750px;
     background: linear-gradient(12deg, #F0FFFF, #808A87);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -71,7 +71,7 @@ header{
     cursor: pointer;
     position: absolute;
     top: 1485px;
-    left: 930px;
+    left: 830px;
     background: linear-gradient(12deg, #FCFCFC, #808A87);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -84,7 +84,7 @@ header{
     cursor: pointer;
     position: absolute;
     top: 1696px;
-    left: 549px;
+    left: 429px;
     background: linear-gradient(12deg, #FCFCFC, #808A87);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -142,7 +142,7 @@ header{
     padding: 1.5rem;
     transform: 2ms ease-in;
     position: relative;
-    top: 150px;
+    top: 160px;
     left: 300px;
 }
 
@@ -193,7 +193,7 @@ header{
 .menu-content .check-menu {
     position: absolute;
     top: 700px;
-    left: 870px;
+    left: 780px;
 }
 
 .menu-content .check-menu-left {
@@ -228,7 +228,7 @@ header{
 .menu-content .check-menu-left {
     position: absolute;
     top: 750px;
-    left: 870px;
+    left: 780px;
 }
 
 .menu-content .check-menu-left2 {
@@ -263,7 +263,7 @@ header{
 .menu-content .check-menu-left2 {
     position: absolute;
     top: 800px;
-    left: 815px;
+    left: 730px;
 }
 
 .menu-content .text-sobre-nos {
@@ -271,7 +271,7 @@ header{
     list-style: none;
     gap: 30px;
     top: 1581px;
-    left: -20px;
+    left: 57px;
     position: relative;
     text-transform: capitalize;
     color: white;
@@ -286,7 +286,7 @@ header{
     list-style: none;
     gap: 30px;
     top: 1600px;
-    left: -240px;
+    left: -180px;
     position: relative;
     text-transform: capitalize;
     color: white;
@@ -300,8 +300,8 @@ header{
     display: flex;
     list-style: none;
     gap: 30px;
-    top: 1610px;
-    left: -128px;
+    top: 1611px;
+    left: -74px;
     position: relative;
     text-transform: capitalize;
     color: white;
@@ -476,7 +476,7 @@ body {
     position: absolute;
     bottom: 160px;
     top: 950px;
-    left: 890px;
+    left: 810px;
     display: flex;
 }
 
